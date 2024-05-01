@@ -3,6 +3,7 @@ import { Section }  from "./Section";
 import { cn } from "@/lib/utils";
 import { Code } from "./Code";
 import Image from "next/image";
+import myImage from "@/public/IMG_2239.png";
 
 export const Hero = () => {
     return (
@@ -25,9 +26,12 @@ export const Hero = () => {
     </div>
     <div className="flex-[2] max-md:m-auto ml-auto">
         <Image 
-            src="https://i.ibb.co/YRbq6Q7/IMG-2239.png" 
+            src={myImage}
+            alt="Josselin's picture" 
+            width={500}
+            height={500}
             className="w-full h-auto max-w-xs max-md:w-56" 
-            alt="Josselin's picture"/>
+/>
     </div>     
     </Section>
     )

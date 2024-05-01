@@ -4,6 +4,11 @@ import { Code, Home, Network, Plane, SquareMousePointer } from "lucide-react";
 import { SideProject, SideProjectProps } from "./SideProject";
 import { ContactCard } from "./ContactCard";
 import { Work, WorkProps } from "./Work";
+import InstagramPicture from "@/public/IMG_2156-modified.png";
+import InstagramLogo from "@/public/InstagramLogo.jpg";
+import LinkedInLogo from "@/public/LinkedinLogo.png";
+import LyceeLogo from "@/public/LycéeDuGrésivaudanLogo.png";
+
 
 export const Status = () =>    {
     return (
@@ -37,15 +42,15 @@ export const Status = () =>    {
             <p className="text-lg text-muted-foreground">Contact me</p>
             <ContactCard
                 name="@nilessojj" 
-                image="https://i.ibb.co/9TVctnK/IMG-2156-modified.png"
-                mediumImage="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/800px-Instagram_logo_2022.svg.png"
+                image={InstagramPicture}
+                mediumImage={InstagramLogo}
                 description="325"
                 url="https://www.instagram.com/nilessojj/"
             />
             <ContactCard
                 name="Josselin Didek" 
-                image="https://i.ibb.co/9TVctnK/IMG-2156-modified.png"
-                mediumImage="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAaVBMVEUAfrv///8AdbcAd7gAeLioyODX5vHF2uq10OXB2OkAfLoAcbUAerkAc7b7/f7y9/tFk8Uehb9sps54rNJVmsnm8PaDs9WWvdoxi8Gfw92OudjP4O70+Ps7j8Ndnsvh7PQmh78AaLFjosxY5DW2AAAGLUlEQVR4nO2d6XaiMBhAySJIEmQXce30/R9yQGuLiCYtiSY53/035wxj7mTfvgTojjRuiiwPXCPPiiZO73WC0Z/37YZjKhh7d4J/DWOCYr5px5K3hnXBqXtuQxjlRf3QcFVy8e4UakDwcjVtGFH67sRpgtJoynDN3S6fQxhf3xtW5N3J0gqpxoaZLyX0Cs1uDSvfBDvFami49quIXiDrH8OIvzs1RuDR1XDleC//CEZXX4alf5XwAi0vhrWfZbSH12fDwoeh2jSi6A1Tf7Owy8R9Z9j6Wgt7aNsZbvxsSC+wDQq8LqRdMU2DGL87EUbBcdD4XA27itgEHvcVPaIIMp8bmq6pyYLcc0P3lkUBAADch1GCOwj1c5wgSJJtl7sw3C2bI8beSQpexcM9nV3BvRrSsuR4QiPSMvFnQCRYNPbrOW18yUaSraYE+5XI5N1p0wIpHvh1tD6sETwT7BTdz0WRPRPsCqrr2zpMPKqDV1xfrUsmW9Ehjm8LiEomiNDW6T6Dh3LDlcuNDZM0MxfWDmciWaoYnhzORC5rSC+4u6KlVki7YursVIqu5XY9S2d7fbVqiFDo7P4OkXb3F1Jnmxqs0Bv27L03XDk7cMM77/Mwltv1nJxtaWirZhg521uIp9P7H9w9ssKYmmHl7JhGsTF1efqkNmxzd9DWb8WoGDq9UkMUWtOds31FDyPyGeKHy1nYdRifMsHW6SzsSCQzKJeXML54vty2d7cr/Ibhu63DgaAXh6pY8nCKUQceZGHQ3wVrpgWX/uwC481EZUwr9xuZH1hyHDmeSo9uLJ4RON/u9l96YXvw4krtGIo5O1RVlnPs6V2p4Hwp3MW77AAAAAAAWEYfZwbjpAdjQqjwanzBKE4OZRuHdZru07QOo8X2GHDiyxiR8k0zNdfeR9sPk6GBBJHxp8/Gezkiydt6Qu+6mNB+JIYmM6JcSoinfln62e1hOJZk0iMD4aeZCRtZyH4ZTa2XUtlnwy1HlhyUdoDqwsSk+wWGVCgeakHodNC//GzekCtuw15YaF/8Mm3IVM8KXKlzzRvOhg1F/qQBfcBR73alWUOqeDTwFr23PIwakuNfBBFa61Q0afhXQb1XIAwaUoVT8o846mtuzBmKzd8FEdK352XMEJO95K88Rd8tD2OG/xRPBT5C2+a6KcO4nCeI0EFTOTVluFO7BfCEk6ZyaspQA5oiz1hsWOvp9y021JSJNhvqqYk2G+ppTq021HLs02pDLUd3rTZERw1tjd2GOoqp3YY6giLabajjbqflhuX8ivgyw3oXL5fx7pdLbxoq4ksMw22WJLjfsMEJqRa/mBpruNv5AsPlRzLcOxOEl8qOGnpE44Zhju/GXhQrfx7MHriZNtxObyclqksA869cGTb8fFSPnkfF+WF+Y2rW8PNxU4i3Sv/C/LAjRg2bZ+2EStARhBazuwuThuHTMRfLVQznd4gmDSV33rDK1vD8C7oGDZey3lolE+dfnDNoKN16ULksP39QY85Q/r8vFDpFmw3lPRkTbhsqnONSuGhtsWGoMGZW+HGLDVWiFChURIsNVZbk2cFlQ6X70fLL8hYbKk1duXQqbK+hWuAlLF22sddQ7Qq4vLuw11AtZfJxm72GkVLK5MHGLDZUmvUQ6dFMMARDMARDMARDMARDMARDMARDMARDMARDMARDMARDMARDMARDMARDMARDMARDMARDMARDMARDMARDMARDMARDMARDMARDMARDMNRtSLehhNNUWqWfLZSiPdBW9usaQvD072k850+fKYazkP66w08RAwAAuIMXz/k+huVB5rlhFmiKGG0roggazU+aWAZtgnj2wNVqcBzoCHFqMTwNZPG23IZtUKAUJsZZaNsZ7n0upnzfGep6YcBGRIF6Q33PmVgHr8+GqPS1JtI+ylRvuPLlDcwRjK6+DFHkZznl58gvZ0O09nE5h6zRjyGq/KuK1wfBvgxR5pvi96N8V0NU+VVQyfeTbt+GaG3iEdM3wfga3RuiiPpSUikdxM8aGKJVaea93RcjeDl8DmxoeH5v1/Hen1Fe3IbpuzVEaN9uOKaCuefJ+jfZ+aZNR0Zjw440bopMw9MfLybPiiYe63X8B12BcdmLsGMEAAAAAElFTkSuQmCC"
+                image={InstagramPicture}
+                mediumImage={LinkedInLogo}
                 description="3"
                 url="https://www.linkedin.com/in/josselin-didek-47a4aa22a/"
             />
@@ -59,19 +64,19 @@ const SIDE_PROJECTS: SideProjectProps[] = [
     {
         Logo: Code,
         title: "Sasomapp",
-        description: "Interface de gestion d'opération de maintenance aéronotique avec blockchain",
+        description: "Aircraft maintenance operation management interface with blockchain",
         url:"/"
     },
     {
         Logo: Network,
         title: "Système d'authentification automatique et sécurisé",
-        description: "Création d'un système d'authentification via serveur RADIUS et certificats pour une salle de réunion d'un client (effectué lors d'un stage)",
+        description: "Creation of an authentication system via RADIUS server and certificates for a customer's meeting room (carried out during an internship).",
         url:"/"
     },
     {
         Logo: SquareMousePointer,
         title: "Autoclicker",
-        description: "Création d’un auto-clicker (script pour cliquer un certain nombre de fois en choisissant une période et le nombre de clics souhaités pendant celle-ci)",
+        description: "Creation of an auto-clicker (script to click a certain number of times, choosing a period and the desired number of clicks during that period)",
         url:"/"
     },
 ]
@@ -79,7 +84,7 @@ const SIDE_PROJECTS: SideProjectProps[] = [
 
 const WORKS: WorkProps[] = [
     {
-        image: "https://www.ouischool.fr/wp-content/uploads/elementor/thumbs/lgm_logosigle_noir_opacite-pgqvy65bh73df3l6aumag0okp1pttuf3e61ycw9og4.png",
+        image: LyceeLogo,
         title: "Lycée du Grésivaudan",
         role: "Student",
         date: "sept. 2022 - present",
