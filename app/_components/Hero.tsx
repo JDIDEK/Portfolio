@@ -2,6 +2,7 @@ import { ComponentProps, ComponentPropsWithoutRef } from "react";
 import { Section }  from "./Section";
 import { cn } from "@/lib/utils";
 import { Code } from "./Code";
+import Image from "next/image";
 
 export const Hero = () => {
     return (
@@ -15,15 +16,15 @@ export const Hero = () => {
         </h3>
         <p>
         Étudiant passionné par le domaine de
-        l’informatique et de l’ <Code>IT</Code> notamment par
+        l&apos;informatique et de l&apos; <Code>IT</Code> notamment par
         le <Code>développement d'applications</Code>, les
         nouveautés technologiques et le
-        domaine de l’ <Code>IA</Code>.
+        domaine de l&apos; <Code>IA</Code>.
 
         </p>
     </div>
     <div className="flex-[2] max-md:m-auto ml-auto">
-        <img 
+        <Image 
             src="https://i.ibb.co/YRbq6Q7/IMG-2239.png" 
             className="w-full h-auto max-w-xs max-md:w-56" 
             alt="Josselin's picture"/>
