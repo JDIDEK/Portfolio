@@ -17,7 +17,7 @@ export const Hero = () => {
         </h3>
         <p>
         Étudiant passionné par le domaine de
-        l&apos;informatique et de l&apos; <Code>IT</Code> notamment par
+        l&amp;apos;informatique et de l&amp;apos; <Code>IT</Code> notamment par
         le <Code>développement d&apos;applications</Code>, les
         nouveautés technologiques et le
         domaine de l&apos; <Code>IA</Code>.
