@@ -69,8 +69,8 @@ const SIDE_PROJECTS: SideProjectProps[] = [
     },
     {
         Logo: Network,
-        title: "Système d'authentification automatique et sécurisé",
-        description: "Creation of an authentication system via RADIUS server and certificates for a customer's meeting room (carried out during an internship).",
+        title: "Secure, automatic authentication system",
+        description: "Creation of an authentication system via RADIUS server and certificates for a customer's meeting room (carried out during an internship)",
         url:"/"
     },
     {
