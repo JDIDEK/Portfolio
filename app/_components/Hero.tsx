@@ -16,12 +16,7 @@ export const Hero = () => {
             IT Student
         </h3>
         <p>
-        Étudiant passionné par le domaine de
-        l'informatique et de l'<Code>IT</Code> notamment par
-        le <Code>développement d'applications</Code>, les
-        nouveautés technologiques et le
-        domaine de l'<Code>IA</Code>.
-
+        Student with a passion for computer science and <Code>IT</Code>, especially <Code>application development</Code>, new technologies and <Code>AI</Code>.
         </p>
     </div>
     <div className="flex-[2] max-md:m-auto ml-auto">
