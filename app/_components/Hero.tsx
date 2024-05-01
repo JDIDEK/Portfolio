@@ -17,10 +17,10 @@ export const Hero = () => {
         </h3>
         <p>
         Étudiant passionné par le domaine de
-        l&amp;apos;informatique et de l&amp;apos; <Code>IT</Code> notamment par
-        le <Code>développement d&apos;applications</Code>, les
+        l'informatique et de l'<Code>IT</Code> notamment par
+        le <Code>développement d'applications</Code>, les
         nouveautés technologiques et le
-        domaine de l&apos; <Code>IA</Code>.
+        domaine de l'<Code>IA</Code>.
 
         </p>
     </div>
