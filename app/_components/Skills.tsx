@@ -25,7 +25,7 @@ export const Skills = () => {
                     <h3 className="text-2xl font-semibold tracking-tight">
                         AI Integration
                     </h3>
-              <p className="text-sm text-muted-foreground">I've just started to learn and become passionate about the subject of <Code>AI</Code> integration in applications/software.</p>
+              <p className="text-sm text-muted-foreground">I've just started to learn and become passionate about the subject of <Code>AI</Code> integration in applications/software</p>
             </div>
         
             <div className="flex flex-col gap-2 flex-1">
