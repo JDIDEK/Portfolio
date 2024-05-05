@@ -28,13 +28,13 @@ export const Hero = () => {
                     <CVCard {...cvProps} />
                 </div>
             </div>
-            <div className="flex-[2] max-md:m-auto ml-auto rounded-full">
+            <div className="flex-[2] max-md:m-auto ml-auto">
                 <Image
                     src={myImage}
                     alt="Josselin's picture"
                     width={500}
                     height={500}
-                    className="w-full h-auto max-w-xs max-md:w-56"
+                    className="w-full h-auto max-w-xs max-md:w-56 rounded-full"
                 />
             </div>
         </Section>
