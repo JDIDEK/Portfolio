@@ -28,7 +28,7 @@ export const Hero = () => {
                     <CVCard {...cvProps} />
                 </div>
             </div>
-            <div className="flex-[2] max-md:m-auto ml-auto">
+            <div className="flex max-md:flex-col w-full gap-4">
                 <Image
                     src={myImage}
                     alt="Josselin's picture"
