@@ -63,8 +63,8 @@ export const Status = () =>    {
 const SIDE_PROJECTS: SideProjectProps[] = [
     {
         Logo: Code,
-        title: "Sasomapp",
-        description:"Aircraft maintenance operation management interface with blockchain. <br /> Check my \"Projects\" on LinkedIn for more details.",
+        title: "Sasomapp (\"Projects\" on LinkedIn)",
+        description:"Aircraft maintenance operation management interface with blockchain",
         url:"/"
     },
     {
