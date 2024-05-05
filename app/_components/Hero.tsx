@@ -22,7 +22,7 @@ export const Hero = () => {
                     IT Student
                 </h3>
                 <p className="mb-6">
-                    Étudiant passionné par le domaine de l'informatique et de l'<Code>IT</Code> notamment par le <Code>développement d'applications</Code>, les nouveautés technologiques et le domaine de l'<Code>IA</Code>.
+                    IT Student with a passion for computer science and <Code>IT</Code>, especially <Code>application development</Code>, new technologies and <Code>AI</Code>.
                 </p>
                 <div>
                     <CVCard {...cvProps} />
