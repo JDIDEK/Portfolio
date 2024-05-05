@@ -75,7 +75,7 @@ const SIDE_PROJECTS: SideProjectProps[] = [
     },
     {
         Logo: SquareMousePointer,
-        title: "Autoclicker",
+        title: "Autoclicker (Fun/Useless stuff)",
         description: "Creation of an auto-clicker (script to click a certain number of times, choosing a period and the desired number of clicks during that period)",
         url:"/"
     },
