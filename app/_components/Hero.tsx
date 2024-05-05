@@ -1,7 +1,7 @@
 import { Section } from "./Section";
 import { Code } from "./Code";
 import Image from "next/image";
-import myImage from "@/public/DIDEKJOSSELINPFP.png";
+import myImage from "@/public/DIDEKJOSSELINPFP.jpg";
 import { CVCard, CVProps } from "./CV";
 import { Download } from "lucide-react";
 
