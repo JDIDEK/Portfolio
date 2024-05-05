@@ -64,7 +64,7 @@ const SIDE_PROJECTS: SideProjectProps[] = [
     {
         Logo: Code,
         title: "Sasomapp",
-        description: "Aircraft maintenance operation management interface with blockchain",
+        description: "Aircraft maintenance operation management interface with blockchain\nCheck my "Projects" on linkedin for more details. ",
         url:"/"
     },
     {
