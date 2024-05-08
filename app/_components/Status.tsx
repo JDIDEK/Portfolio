@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Section } from "./Section";
-import { Code, Home, Network, Plane, SquareMousePointer } from "lucide-react";
+import { Code, Home, Network, Plane, SquareMousePointer, BriefcaseBusiness } from "lucide-react";
 import { SideProject, SideProjectProps } from "./SideProject";
 import { ContactCard } from "./ContactCard";
 import { Work, WorkProps } from "./Work";
