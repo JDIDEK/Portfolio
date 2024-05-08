@@ -79,6 +79,12 @@ const SIDE_PROJECTS: SideProjectProps[] = [
         description: "Creation of an auto-clicker (script to click a certain number of times, choosing a period and the desired number of clicks during that period)",
         url:"/"
     },
+    {
+        Logo: BriefcaseBusiness,
+        title: "Portfolio (React, Tailwind CSS, Next.js",
+        description: "I set myself the challenge of creating my portfolio in less than two days using frameworks I didn't know before (the portfolio in question is the one you're looking at).",
+        url:"/"
+    },
 ]
 
 
