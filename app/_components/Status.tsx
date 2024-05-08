@@ -81,7 +81,7 @@ const SIDE_PROJECTS: SideProjectProps[] = [
     },
     {
         Logo: BriefcaseBusiness,
-        title: "Portfolio (React, Tailwind CSS, Next.js",
+        title: "Portfolio (React, Tailwind CSS, Next.js)",
         description: "I set myself the challenge of creating my portfolio in less than two days using frameworks I didn't know before (the portfolio in question is the one you're looking at).",
         url:"/"
     },
